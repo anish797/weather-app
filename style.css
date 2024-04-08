@@ -128,7 +128,7 @@ hr {
   background-color: #1f293b;
   border-radius: 10px;
   display: flex;
-  gap: 1.5rem;
+  justify-content: space-around;
   flex-direction: column;
   padding: 2rem;
   color: white;
@@ -193,4 +193,33 @@ hr {
 #symbol {
   height: 5rem;
   width: 5rem;
+}
+
+.day {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+#forecast {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: space-evenly;
+}
+
+.info .symbol {
+  height: 2rem;
+  width: 2rem;
+}
+
+.day {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#github {
+  cursor: pointer;
 }
